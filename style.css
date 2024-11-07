@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Inter';
+}
+
+.first {
+    display: flex;
+    background-color: #1f2937;
+    gap: 20px;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+}
+
+.biggreeting {
+    font-size: 24px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: bold;
+    margin: 10px;
+}
+
+.littlegreeting {
+    font-size: 18px;
+    color: lightgray;
+    font-family: 'Inter';
+    margin: 10px;
+}
+
+.greetingButton {
+    padding: 12px 24px; /* Spacing inside the button */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Make text bold */
+    color: #fff; /* Text color */
+    background-color: #3b82f6; /* Green background color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    flex-grow: 0;
+    width: 150px;
+}
+
+.greetingImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    color: lightgray;
+    font-size: 14px;
+}
+
+.link,
+.title {
+    margin: 10px;
+}
+
